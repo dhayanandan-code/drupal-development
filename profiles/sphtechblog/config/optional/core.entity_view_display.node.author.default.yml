@@ -1,0 +1,57 @@
+uuid: e062b977-aaae-49e0-b6d9-bba4fba4d8d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.author.field_description
+    - field.field.node.author.field_designation
+    - field.field.node.author.field_email_address
+    - field.field.node.author.field_profile_photo
+    - image.style.profile_photo
+    - node.type.author
+  module:
+    - image
+    - text
+    - user
+id: node.author.default
+targetEntityType: node
+bundle: author
+mode: default
+content:
+  field_description:
+    weight: 105
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_designation:
+    weight: 103
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_email_address:
+    weight: 104
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_profile_photo:
+    weight: 106
+    label: hidden
+    settings:
+      image_style: profile_photo
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

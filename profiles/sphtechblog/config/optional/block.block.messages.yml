@@ -1,0 +1,20 @@
+uuid: 55cf4637-a105-43e1-8f43-17cfd4bed30c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sphtechblog
+id: messages
+theme: sphtechblog
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

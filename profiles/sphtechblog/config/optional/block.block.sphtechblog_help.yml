@@ -1,0 +1,22 @@
+uuid: b2e6d0df-56f1-42d3-b8e3-4f7ed9401d7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sphtechblog
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: sphtechblog_help
+theme: sphtechblog
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

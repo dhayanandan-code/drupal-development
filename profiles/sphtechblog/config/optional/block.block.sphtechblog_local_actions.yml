@@ -1,0 +1,20 @@
+uuid: a5f28afe-2d4c-4a91-a876-7d4aadad4708
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sphtechblog
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: sphtechblog_local_actions
+theme: sphtechblog
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

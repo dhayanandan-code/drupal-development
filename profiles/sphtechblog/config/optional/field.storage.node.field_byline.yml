@@ -1,0 +1,19 @@
+uuid: 9589503f-39a9-4783-a18a-336503804ecc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_byline
+field_name: field_byline
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

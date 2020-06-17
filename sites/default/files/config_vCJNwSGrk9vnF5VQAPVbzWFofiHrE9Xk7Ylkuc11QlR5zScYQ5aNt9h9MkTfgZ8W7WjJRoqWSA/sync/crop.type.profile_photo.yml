@@ -1,0 +1,12 @@
+uuid: 6b959c37-a469-4961-9c9c-9cdd6e9016d6
+langcode: en
+status: true
+dependencies: {  }
+id: profile_photo
+label: 'Profile Photo'
+description: ''
+aspect_ratio: ''
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: 60
+hard_limit_height: 70

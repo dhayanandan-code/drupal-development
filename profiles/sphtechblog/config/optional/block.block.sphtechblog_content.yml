@@ -1,0 +1,22 @@
+uuid: 08244c2f-8849-46cb-b8f3-28ba8ff6b123
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sphtechblog
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: sphtechblog_content
+theme: sphtechblog
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
